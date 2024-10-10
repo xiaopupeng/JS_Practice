@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML Elements</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <body>
+        <!-- We can create headings using h1 through h6 as tags. 
+-->
+        <h1>A Blue Heading</h1>
+        <h2>A Smaller Heading</h2>
+        <h6>The Smallest Heading</h6>
+
+        <!-- The strong and i tags give us bold and italics 
+respectively. -->
+        A <strong>bold</strong> word and an 
+<i>italicized</i> word!
+        
+        <!-- We can link to another page (such as cs50's page) using 
+a. -->
+        View the <a href="https://cs50.harvard.edu/">CS50 
+Website</a>!
+
+        <!-- We used ul for an unordered list and ol for an ordered 
+one. both ordered and unordered lists contain li, or list items. -->
+        <br/> <br/>
+        An unordered list:
+        <ul>
+            <li>foo</li>
+            <li>bar</li>
+            <li>baz</li>
+        </ul>
+        An ordered list:
+        <ol>
+            <li>foo</li>
+            <li>bar</li>
+            <li>baz</li>
+        </ol>
+
+        <!-- Images require a src attribute, which can be either the 
+path to a file on your computer or the link to an image online. It also 
+includes an alt attribute, which gives a description in case the image 
+can't be loaded. -->
+        An image:
+        <img src="../../images/duck.jpeg" alt="Rubber Duck Picture">
+        <!-- We can also see above that for some elements that don't 
+contain other ones, closing tags are not necessary. -->
+
+        <!-- Here, we use a br tag to add white space to the page. 
+-->
+        <br/> <br/>
+
+        <!-- A few different tags are necessary to create a table. 
+-->
+        <table>
+            <thead>
+                <th>Ocean</th>
+                <th>Average Depth</th>
+                <!-- <th colspan="2">Average Depth</th> -->
+                <th>Maximum Depth</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific</td>
+                    <td>4280 m</td>
+                    <td>10911 m</td>
+                </tr>
+                <tr>
+                    <td>Atlantic</td>
+                    <td>3646 m</td>
+                    <td>8486 m</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        <form>
+            <input type="text" placeholder="First Name" name="first">
+            <input type="password" placeholder="Password" name="password">
+            <div>
+                Favorite Color:
+                <input name="color" type="radio" value="blue"> Blue
+                <input name="color" type="radio" value="green"> Green
+                <input name="color" type="radio" value="yellow"> Yellow
+                <input name="color" type="radio" value="red"> Red
+    
+            </div>
+            <input type="submit">
+        </form>
+
+
+        <ol>
+                <li>foo</li>
+                <li> bar
+                    <ul>
+                        <li>hello</li>
+                        <li>goodbye</li>
+                        <li>hello</li>
+                    </ul>
+                </li>
+                <li>baz</li>
+        </ol>
+        
+        <ol>
+                <li><a href="https://www.google.com/">Google</a></li>
+                <li><a href="https://www.amazon.com/">Amazon</a> </li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </ol>
+        
+        <button> B1 </button>
+        <button> B2 </button>
+
+        <div id="container">
+                <div>Some text 1!</div>
+                <div>Some text 2!</div>
+                <div>Some text 3!</div>
+                <div>Some text 4!</div>
+                <div>Some text 5!</div>
+                <div>Some text 6!</div>
+                <div>Some text 7!</div>
+                <div>Some text 8!</div>
+                <div>Some text 9!</div>
+                <div>Some text 10!</div>
+                <div>Some text 11!</div>
+                <div>Some text 12!</div>
+            </div>
+        
+        <div class="grid">
+                <div class="grid-item">1</div>
+                <div class="grid-item">2</div>
+                <div class="grid-item">3</div>
+                <div class="grid-item">4</div>
+                <div class="grid-item">5</div>
+                <div class="grid-item">6</div>
+                <div class="grid-item">7</div>
+                <div class="grid-item">8</div>
+                <div class="grid-item">9</div>
+                <div class="grid-item">10</div>
+                <div class="grid-item">11</div>
+                <div class="grid-item">12</div>
+            </div>
+
+
+    </body>
+<html>

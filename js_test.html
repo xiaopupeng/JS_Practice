@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>JS Test</title>
+    <head>
+        <h1>Hello!</h1>
+        <script>
+            let heading = document.querySelector('h1');
+            heading.innerHTML = 'Goodbye';
+            function conditionHello() {
+                const header = document.querySelector('h1');
+                if (header.innerHTML === 'Hello!') {
+                    header.innerHTML = 'Goodbye!';
+                }
+                else {
+                    header.innerHTML = 'Hello!';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            alert('Hello, world!');
+            function hello() {
+                alert('Hello world, again!')
+            }
+            let counter = 0;
+            function count() {
+                counter++;
+                alert(counter);
+            }
+            function countShow(){
+                counter++;
+                document.querySelector('h2').innerHTML=counter;
+                if(counter % 5 === 0){
+                    alert('Count is now ${counter}')
+                }
+            }
+        </script>
+        <button onclick="hello()">Show Hello</button>
+        <button onclick="count()">Show Count</button>
+        <button onclick="conditionHello()">Change Hello</button>
+        <h2>0</h2>
+        <button onclick="countShow()">Count+</button>
+    </body>
+</html>
+

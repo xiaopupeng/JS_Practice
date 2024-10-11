@@ -12,3 +12,4 @@ function showTotal() {
 // invoke / run / call a function
 sayHello();
 showTotal();
+alert('testJS.js working');

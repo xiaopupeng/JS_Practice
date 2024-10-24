@@ -19,12 +19,19 @@ function showTotal() {
   document.write('total is:' + total);
 }
 // invoke / run / call a function
-sayHello();
-showTotal();
-alert('testJS.js working');
+// sayHello();
+// showTotal();
+// alert('testJS.js working');
 
 // Writing text string inside an element
 document.getElementById('mainHeadingText').innerHTML = 'Heading Text change dynamically on run-time';
 
 var paraText = document.getElementById('mainParaText');
 paraText.innerHTML = '<strong>This Paragraphic text inserted dynamically through innerHTMLmethod.</strong>';
+
+// variables defined to hold different types of data
+var techName = 'JavaScript'; // String literal 
+var version = 6; // Number literal
+var isDone = true; // Boolean literal
+
+console.log('Learning '+techName+version);
